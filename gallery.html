@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Website Fateha Ismuie</title>
+
+<style>
+body {
+  background-color: rgb(153, 153, 255);
+  background-size: cover;
+  text-align: center;
+  font-family: Cambria;
+}  
+header{
+  color: rgb(241, 250, 238);
+  text-align: center;
+  text-shadow: 2px 2px 4px rgb(255, 144, 179);
+  font-family: Lucida Handwriting;
+}  
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(109, 104, 117);
+  text-align: center;
+}
+li {
+  display: inline-flex;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.8s ease;
+}
+li a:hover:not(.active) {
+  background-color: rgb(255, 144, 179);
+}
+.active {
+  background-color: rgb(181, 131, 141);
+}
+.title {
+  color: rgb(11, 9, 10);
+  font-size: 14px;
+  position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1 {
+  text-shadow: 2px 2px 4px rgb(11, 9, 10);
+  color: rgb(241, 250, 238);
+	font-size: 50px;
+}
+.statement-of-responsibility p{
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  text-align: center;
+  position: absolute;
+	top: 95%;
+  left: 30%;
+}
+.gallery-text {
+	text-align: center;
+	color: rgb(0, 0, 0);
+	font-size: 14px;
+	margin-top: 3cm;
+	font-family: sans-serif;
+	}
+  .container {
+	max-width: 1100px;
+	margin: auto;
+	overflow:auto;
+	}
+
+.gallery {
+	margin: 5px;
+	border: 1px solid rgb(0, 0, 0);
+  float: left;
+	width: 290px;
+	}
+
+.gallery img {
+	width: 50%;
+	height: auto;
+	}
+
+.desc{
+	padding: 14px;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	}
+</style>
+    </head>
+    <body>
+        <header>
+            <h1><b>Miss Fateha</b></h1>
+        </header>
+        <div class= "menu-bar">	
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="biodata.html">Biodata</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="family.html">Family</a></li>
+                <li><a class="active">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="title">
+            <h1>My Gallery</h1>
+            <h2>I want to show you my photos that I captured in 2021:</h2>
+            <div class ="container">
+              <div class ="gallery">
+                 <img src ="images/me with plague.jpg">
+                     <div class ="desc"> I get this LED plague as a gift of my Dean's list achievement</div>
+              </div>
+              
+              <div class ="gallery">
+                  <img src ="images/strawberry waffle.jpg">
+                      <div class ="desc"> This is my favourite dessert bought from Bubblebee Cafe</div>
+              </div>
+            </div>
+        <div class="statement-of-responsibility">
+          <p><br><br><br>
+            Copyright &#169; 2022 Nur Fateha bt Ismuie
+            <br>All Rights Reserved
+          </p>
+      </div>
+    </body>
+</html>
